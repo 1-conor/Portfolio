@@ -14,27 +14,18 @@ main {
 
 footer {
   text-align: center;
-  padding: 2% 0;
+  padding: 1% 0;
 }
 
 .container {
   width: 100%;
-  padding: 5%;
+  padding: 6%;
+  padding-bottom: 3%;
 }
 
 section {
   margin-top: 5%;
-  margin-bottom: 15%;
-}
-
-.nav-items {
-  display: flex;
-  padding-top: 0.5em;
-  justify-content: space-between;
-}
-
-.nav-item {
-  margin: 2em 0;
+  margin-bottom: 10%;
 }
 
 h1, h2, h3, h4 {
@@ -56,26 +47,23 @@ p {
   font-size: 16px;
 }
 
-img {
-  height: 10em;
-
-}
-
 #me {
-  height: 60%;
+  height: 50%;
   width: 100%;
   margin: 10% 0;
 }
 
 #links {
   border: 3px rgb(201, 207, 216) solid;
-  height: 40%;
+  height: 30%;
   text-align: center;
-  padding: 5%;
+  padding: 15% 5%;
+  margin-top: 5%;
+  margin-bottom: 6%;
 }
 
 #links a {
-  margin:  13%;
+  margin:  5%;
   color: rgb(226, 232, 240);
   font-size: x-large;
 }
@@ -90,19 +78,25 @@ img {
   font-size: x-large;
 }
 
-#skills i:hover {
-  color: #c7893e;
-}
-
 .project {
   display: flex;
-  margin-top: 6%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 6%;
   border: rgb(201, 207, 216) solid 2px;
-  padding: 2%;
   justify-content: space-between;
+  height: 225px;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.project img {
+  height: 85%;
+  width: auto;
+  object-fit: cover;
 }
 
 .project-details {
-  padding: 0 5%;
+  padding: 1%;
+  flex: 1;
 }
